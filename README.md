@@ -25,15 +25,5 @@ kubernetes | observability | reliability | platform tooling
 - `YMacs` — https://github.com/erain/YMacs
 - `erain.github.io` — https://github.com/erain/erain.github.io
 
-## Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=erain&show_icons=true&hide_title=true&theme=github_dark&hide_border=true&include_all_commits=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=erain&layout=compact&theme=github_dark&hide_border=true)
-
-## Socials
-- LinkedIn: https://www.linkedin.com/in/erain/
-- X: https://x.com/erain
-- about.me: https://about.me/yiyu
-- GitHub: https://github.com/erain
-
 ## Contact
 - yiyu [at] yiyu [dot] me
