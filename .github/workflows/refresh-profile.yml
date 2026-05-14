@@ -1,0 +1,42 @@
+name: Refresh profile README
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monday 09:17 America/Toronto during daylight saving time.
+    - cron: "17 13 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh README
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+        run: python scripts/refresh_profile.py
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README already fresh."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Refresh profile README"
+          git push
