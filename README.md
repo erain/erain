@@ -1,4 +1,4 @@
-<!-- refreshed: 2026-06-01 18:51 UTC / 2026-06-01 14:51 EDT by scripts/refresh_profile.py -->
+<!-- refreshed: 2026-06-08 16:53 UTC / 2026-06-08 12:53 EDT by scripts/refresh_profile.py -->
 
 <div align="center">
 
@@ -27,9 +27,9 @@ pipelines, local tools, and agents with a clean loop.
 
 ## Current Signal
 
-- Building [glue](https://github.com/erain/glue), a provider-agnostic Go agent framework with [glue-review](https://github.com/erain/glue/tree/main/agents/glue-review) and a multi-layer evaluation harness in [glue-review-eval](https://github.com/erain/glue-review-eval).
-- Contributing to Kubernetes observability and logging via [k8s-stackdriver](https://github.com/erain/k8s-stackdriver) and [Fluent Bit](https://github.com/erain/fluent-bit).
-- Developing local productivity tools including [YMacs](https://github.com/erain/YMacs) and [yy-cli](https://github.com/erain/yy-cli).
+- Built [glue](https://github.com/erain/glue), a provider-agnostic Go agent framework, including [glue-review](https://github.com/erain/glue/tree/main/agents/glue-review) and its corresponding [glue-review-eval](https://github.com/erain/glue-review-eval) benchmark harness.
+- Contributed to Kubernetes observability and logging via [k8s-stackdriver](https://github.com/erain/k8s-stackdriver) and [Fluent Bit](https://github.com/erain/fluent-bit).
+- Developed local developer tooling including [YMacs](https://github.com/erain/YMacs) Emacs configurations and the [yy-cli](https://github.com/erain/yy-cli) utility.
 
 ## Toolbelt
 
