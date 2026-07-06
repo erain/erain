@@ -1,4 +1,4 @@
-<!-- refreshed: 2026-06-29 16:42 UTC / 2026-06-29 12:42 EDT by scripts/refresh_profile.py -->
+<!-- refreshed: 2026-07-06 16:29 UTC / 2026-07-06 12:29 EDT by scripts/refresh_profile.py -->
 
 <div align="center">
 
@@ -27,9 +27,9 @@ pipelines, local tools, and agents with a clean loop.
 
 ## Current Signal
 
-- Developing [glue](https://github.com/erain/glue), including [glue-review](https://github.com/erain/glue/tree/main/agents/glue-review) and [glue-review-eval](https://github.com/erain/glue-review-eval) for agentic code review.
-- Building observability and orchestration tools with [k8s-stackdriver](https://github.com/erain/k8s-stackdriver) and [Fluent Bit](https://github.com/erain/fluent-bit).
-- Maintaining local developer tooling including [YMacs](https://github.com/erain/YMacs) and [yy-cli](https://github.com/erain/yy-cli).
+- One glue lane: [glue](https://github.com/erain/glue), [glue-review](https://github.com/erain/glue/tree/main/agents/glue-review), and [glue-review-eval](https://github.com/erain/glue-review-eval) moving as harness, reviewer, and benchmark.
+- Kubernetes / observability lane: [k8s-stackdriver](https://github.com/erain/k8s-stackdriver), [Fluent Bit](https://github.com/erain/fluent-bit), and GKE production reliability work.
+- Tooling lane: [YMacs](https://github.com/erain/YMacs), [yy-cli](https://github.com/erain/yy-cli), and skills/dotfiles for local-first developer workflows.
 
 ## Toolbelt
 
