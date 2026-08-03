@@ -1,4 +1,4 @@
-<!-- refreshed: 2026-07-27 15:49 UTC / 2026-07-27 11:49 EDT by scripts/refresh_profile.py -->
+<!-- refreshed: 2026-08-03 15:51 UTC / 2026-08-03 11:51 EDT by scripts/refresh_profile.py -->
 
 <div align="center">
 
@@ -27,9 +27,9 @@ pipelines, local tools, and agents with a clean loop.
 
 ## Current Signal
 
-- Developed [glue](https://github.com/erain/glue) and its ecosystem, including [glue-review](https://github.com/erain/glue/tree/main/agents/glue-review) and [glue-review-eval](https://github.com/erain/glue-review-eval).
-- Built observability and infrastructure tools including [k8s-stackdriver](https://github.com/erain/k8s-stackdriver) and [Fluent Bit](https://github.com/erain/fluent-bit).
-- Maintained local developer utilities such as [YMacs](https://github.com/erain/YMacs) and [yy-cli](https://github.com/erain/yy-cli).
+- Developing [glue](https://github.com/erain/glue), including the [glue-review](https://github.com/erain/glue/tree/main/agents/glue-review) agent and [glue-review-eval](https://github.com/erain/glue-review-eval) benchmark harness.
+- Building observability and infrastructure tooling with [k8s-stackdriver](https://github.com/erain/k8s-stackdriver) and [Fluent Bit](https://github.com/erain/fluent-bit).
+- Maintaining local developer productivity tools including [YMacs](https://github.com/erain/YMacs) and [yy-cli](https://github.com/erain/yy-cli).
 
 ## Toolbelt
 
